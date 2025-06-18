@@ -1,5 +1,3 @@
-```sql
-
 -- 1. Установка расширения pg_cron
 
 create extension if not exists pg_cron;
