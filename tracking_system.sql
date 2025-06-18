@@ -22,7 +22,7 @@ CREATE TABLE users_audit (
     new_value TEXT
 );
 
--- 3. Функцию логирования изменений по трем полям
+-- 3. Функция логирования изменений по трем полям
 
 create or replace function log_changes()
 returns trigger as $$
@@ -53,7 +53,7 @@ before update on users
 for each row
 EXECUTE FUNCTION log_changes();
 
--- 5. Функцию, которая будет доставать только свежие данные
+-- 5. Функция, которая будет доставать только свежие данные
 
 CREATE OR REPLACE FUNCTION export_todays_audit()
 RETURNS void AS $$
