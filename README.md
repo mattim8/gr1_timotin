@@ -56,4 +56,4 @@
 
 ## 📄 Решение
 
-Код - [ch_events.sql](https://github.com/mattim8/gr1_timotin/blob/main/arch_users.py)
+Код - [arch_users.py](https://github.com/mattim8/gr1_timotin/blob/main/arch_users.py)
