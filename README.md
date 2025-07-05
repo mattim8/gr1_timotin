@@ -57,3 +57,29 @@
 ## 📄 Решение
 
 Код - [arch_users.py](https://github.com/mattim8/gr1_timotin/blob/main/arch_users.py)
+
+# 💾 **Задание 4 - Kafka pipeline**
+
+### 📌 Описание пайплайна
+
+PostgreSQL -> Producer -> Kafka -> Consumer -> ClickHouse
+
+1. Producer читает новые записи из PostgreSQL (sent_to_kafka = FALSE)
+2. Отправляет их в Kafka
+3. Помечает записи как отправленные
+4. Consumer читает сообщения из Kafka
+5. Сохраняет данные в ClickHouse
+
+### 📌 Запуск
+
+1. Сохраните файлы себе:
+    [Kafka project](https://github.com/mattim8/gr1_timotin/tree/main/kafkaproject)
+
+2. Запустите инфраструктуру:
+   docker-compose up -d
+
+3. Запустите консьюмер:
+   python consumer_to_clickhouse.py
+
+4. Запустите продюсер:
+   python producer_pg_to_kafka.py
