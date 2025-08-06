@@ -1,0 +1,5 @@
+2025-08-05 02:46:57,452 - S3 - INFO - Uploading file: data.txt
+2025-08-05 02:46:58,063 - S3 - INFO - File upload: data.txt
+2025-08-05 02:46:58,163 - S3 - INFO - Downloaded: data.txt
+2025-08-05 02:46:58,280 - S3 - INFO - Removed: data.txt
+2025-08-05 02:46:58,479 - S3 - INFO - File not found: data.txt
