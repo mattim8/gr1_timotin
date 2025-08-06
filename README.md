@@ -94,3 +94,8 @@ PostgreSQL -> Producer -> Kafka -> Consumer -> ClickHouse
 Код - [selected](https://github.com/mattim8/gr1_timotin/tree/main/selected)
 
 [скриншот](https://github.com/mattim8/gr1_timotin/blob/main/selected/screenshot.png)
+
+Задание 2:
+bucket policy - [скриншот](https://github.com/mattim8/gr1_timotin/blob/main/selected/photo_2025-08-06_19-11-32.jpg)
+версионирование  - [скриншот](https://github.com/mattim8/gr1_timotin/blob/main/selected/photo_2025-08-06_19-10-41.jpg)
+lifecycle policy - [скриншот](https://github.com/mattim8/gr1_timotin/blob/main/selected/image_2025-08-06_19-10-18.png)
