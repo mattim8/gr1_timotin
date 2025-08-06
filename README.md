@@ -92,4 +92,5 @@ PostgreSQL -> Producer -> Kafka -> Consumer -> ClickHouse
 ## 📄 Решение
 
 Код - [selected](https://github.com/mattim8/gr1_timotin/tree/main/selected)
-![скриншот](image.png)
+
+[скриншот](https://github.com/mattim8/gr1_timotin/blob/main/selected/screenshot.png)
